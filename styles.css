@@ -8,6 +8,7 @@
 body {
   background-color: #f9fbe7;
   color: black;
+  overflow: hidden;
 }
 
 main {
@@ -15,7 +16,6 @@ main {
   grid-template-columns: 2fr 3fr;
   padding: 0;
   margin: 0;
-  min-height: 0;
 }
 
 .panel.welcome footer {
@@ -51,16 +51,17 @@ main {
 .panel.welcome {
   background: #f9fbe7;
   padding: 0px;
-  grid-auto-rows: 0.5fr 0.3fr 3fr 0.8fr;
+  grid-auto-rows: 0.6fr 0.3fr 3fr 0.8fr;
 }
 
 .panel.welcome nav a {
   font-family: "Montserrat", sans-serif;
   color: black;
   text-decoration: none;
-  margin-right: 0px;
-  margin-left: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 5px;
+  padding: 5px 5px;
 }
 
 .panel.welcome p {
@@ -91,8 +92,8 @@ main {
   font-family: "Montserrat", sans-serif;
   color: black;
   text-decoration: none;
-  margin-right: 0px;
-  margin-left: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   margin-bottom: 0px;
 }
 
@@ -199,7 +200,11 @@ a:active {
 @media screen and (max-width: 960px) {
   main {
     grid-template-columns: 100%;
-    grid-template-rows: 400px 500px;
+    grid-template-rows: 400px 600px;
+  }
+
+  body {
+    overflow: visible;
   }
 
   .panel.welcome footer {
