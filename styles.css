@@ -16,10 +16,6 @@ main {
   grid-template-columns: 2fr 3fr;
   padding: 0;
   margin: 0;
-<<<<<<< HEAD
-=======
-  min-height: 0;
->>>>>>> 450515c5e56942c5dcaff1051c5f58741162f88b
 }
 
 .panel.welcome footer {
@@ -55,11 +51,7 @@ main {
 .panel.welcome {
   background: #f9fbe7;
   padding: 0px;
-<<<<<<< HEAD
   grid-auto-rows: 0.6fr 0.3fr 3fr 0.8fr;
-=======
-  grid-auto-rows: 0.5fr 0.3fr 3fr 0.8fr;
->>>>>>> 450515c5e56942c5dcaff1051c5f58741162f88b
 }
 
 .panel.welcome nav a {
@@ -207,15 +199,11 @@ a:active {
 @media screen and (max-width: 960px) {
   main {
     grid-template-columns: 100%;
-<<<<<<< HEAD
     grid-template-rows: 400px 600px;
   }
 
   body {
     overflow: visible;
-=======
-    grid-template-rows: 400px 500px;
->>>>>>> 450515c5e56942c5dcaff1051c5f58741162f88b
   }
 
   .panel.welcome footer {
